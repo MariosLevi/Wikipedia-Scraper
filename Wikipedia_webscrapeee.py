@@ -16,7 +16,7 @@ page_soup = soup(page_html, "html.parser")
 list_of_tables = page_soup.findAll("table",{"class":"wikitable"})
 
 #creating a csv
-filename= "wikipedia.csv"
+filename = '.\Desktop\Wikipedia_Unusual.csv'
 f = open(filename, "w", encoding="utf-8")
 #creating titles of each column, note the \n
 headers= "Article Name,Description,Link\n"
