@@ -3,4 +3,6 @@ Scraper written with Beautiful Soup, the example provided is going through wikip
 The contents of that ^link then get parsed into a .csv (that gets saved into your User folder)
 Note that this is my first real web-scraper, so the output file has a lot of problems due to special characted found on the page (2000 entries).
 
+![](2000%20entries.PNG)
+
 Note you will need to install BeautifulSoup / bs4 / urllib
